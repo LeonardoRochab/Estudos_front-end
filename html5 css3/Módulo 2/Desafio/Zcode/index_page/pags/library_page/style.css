@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+body {
+    background-color: blue;
+}
+
+.bookList {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+}
+
+.bookList li {
+    list-style-type: none;
+
+}
+
+.bookList a {
+    display: block;
+    width: 150px;
+    height: auto;
+    text-align: center;
+}
+
+.bookList img {
+    height: 170px;
+    width: 170px;
+    margin-top: 12pt;
+    border-radius: 12px;
+}
+
+img:hover {
+    box-shadow: 10px 10px black;
+    height: 190px;
+    width: 190px;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+}
+
+a:hover {
+    color: orange;
+    font-size: large;
+}
+
+.mid {
+    text-align: center;
+}

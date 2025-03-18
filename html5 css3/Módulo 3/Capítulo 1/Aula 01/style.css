@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+div.quadrado {
+    display: inline-block;
+    border: 2px solid black;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    background-color: grey;
+}
+
+#q1 {
+    background-color: blue;
+}
+
+#q2 {
+    background-image: linear-gradient(to bottom, yellow, red);
+}
+
+#q3 {
+    background-image: url(img/img/pattern001.png);
+}
+
+#conteiner {
+    background-image: url(img/img/target001.png);
+    background-size: 100% 100%;
+    position: relative;
+    height: 96vh;
+    background-color: purple;
+    padding: 10px;
+}
+
+#conteudo {
+    position: absolute;
+    background-image: url(img/img/target001.png);
+    background-size: 100% 100%;
+    left: 50%;
+    top: 50%;
+    height: 200px;
+    width: 400px;
+    background-color: yellow;
+    transform: translate(-50%, -50%);
+}
